@@ -16,7 +16,7 @@ MENTION_REGEX = "^<@([WU].+)>(.*)"  # RegEx for parsing command
 # export SLACK_API_TOKEN='Your Bot User OAuth Access Token'
 # or hardcode
 
-slack_token = os.environ.get('SLACK_API_TOKEN')
+slack_token = os.environ.get('5SbpC9r1QnJVboj4K5gr7snO')
 
 
 @slack.RTMClient.run_on(event='message')
