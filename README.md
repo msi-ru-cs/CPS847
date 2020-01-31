@@ -10,11 +10,11 @@ Note Step 14a: at least one of the group members should come to the lab on Feb. 
 
 1. Create Slack Team (i.e., workspace) for your lab group
 2. Create GitHub repo for your group
-3. [5%] Add ZenHub shell to your GitHub repo
-4. [5%] Integrate ZenHub notifications into Slack and create #zenhub slack channel for the notifications
-5. [5%] Integrate GitHub notifications into Slack and create #github slack channel for the notifications
-6. [5%] Create two Epics with two issues/requirements in each in ZenHub
-7. [5%] Add estimates to each issue (select estimate values at random)
+3. [5%] Add ZenHub shell to your GitHub repo [ROD]
+4. [5%] Integrate ZenHub notifications into Slack and create #zenhub slack channel for the notifications [ROD]
+5. [5%] Integrate GitHub notifications into Slack and create #github slack channel for the notifications 
+6. [5%] Create two Epics with two issues/requirements in each in ZenHub [ROD]
+7. [5%] Add estimates to each issue (select estimate values at random) 
 8. [5%] Create: 
       a) “Sprint 1” starting on Jan 27, 2020, and ending on Feb 9, 2020, and 
       b) “Sprint 2” starting on Feb 10, 2020, and ending on February 24, 2020.
@@ -23,7 +23,7 @@ Note Step 14a: at least one of the group members should come to the lab on Feb. 
 11. [5%] Close Sprint 1
 12. [5%] Add users msi-ru-cs and avm-ru-cs to GitHub account
 13. [5%] Send an invite to your slack group to mohammad.s.islam@ryerson.ca
-14. [10%] Build Slack bot echoing questions asked to the bot, add it to your Slack group
+14. [10%] Build Slack bot echoing questions asked to the bot, add it to your Slack group 
        a) You will have to run your bot from your machine in the lab so that we can validate its functionality
 15. [5%] Commit the source code of your Slack bot to GitHub repository
 16. [5%] Create file ./git_tst/index.html with some content
