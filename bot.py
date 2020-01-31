@@ -9,7 +9,6 @@ SLACK_API_TOKEN = Bot_User_OAuth_Access_Token
 slack_token = SLACK_API_TOKEN
 client = SlackClient(slack_token)
 
-
 def mock(cmd):
     store = ""
     toggle = True  # capitalize
