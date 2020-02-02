@@ -2,7 +2,32 @@
 CPS847: Assignment 1
 Created on: January 26, 2020
 Assignment due date: February 5, 2020, end of the day
-		 	 	 		
+
+## Instructions to setup & run Slackbot
+- Log into group 10 workspace on Slack with your credentials
+
+### Within the file: `bot.py`
+- replace `<SLACK TOKEN>` with the token provided to you (message the group if you cannot locate it)
+- replace `<WEATHER-API-KEY>` with the api key provided to you (message the group if you cannot locate it)
+
+### On the Command Line
+- ensure you are inside the CPS847 folder
+- ensure you have `pip` package and `python3` installed
+- run `pip install -r requirements.txt` to install the relevant packages for the slackbot
+- run `python3 bot.py`
+
+### Interacting with the Slackbot: Mocking
+- join the `#general` channel
+- type in any question with `?` at the end
+- the bot should return with "mocking" text
+
+### Interacting with the Slackbot: Weather
+- join the `#general` channel
+- type in a sentence with the word `weather` and any one of these cities: `vancouver`, `ottawa`, `toronto`, and `seattle`
+- the bot should return with the current weather of the city you selected
+- bot currently does not support NLP and other cities, needs to be added.
+
+## Assignment 1 Requirements
 This assignment is group work. Typically, a group gets the same mark for a given assignment. However, if the contribution of some group members is considered not acceptable by their peers, then a peer-review process can be enacted that may lead to a reduction of marks for these group members. Please see the slides of the first lecture for details. 
 
 Note Step 14a: at least one of the group members should come to the lab on Feb. 6 to show to the TA “live” bot so that he can test it.

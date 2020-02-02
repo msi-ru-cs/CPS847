@@ -3,7 +3,6 @@ from slackclient import SlackClient
 import requests
 import json
 
- 
 # CPS-847-Bot Slack
 Bot_User_OAuth_Access_Token = '<SLACK TOKEN>'
 SLACK_API_TOKEN = Bot_User_OAuth_Access_Token
@@ -99,6 +98,7 @@ def city_forecast(city):
 
 # Bot connection to the slack client
 if client.rtm_connect():
+    print("Bot is running!")
     while client.server.connected is True:
         for data in client.rtm_read():
             if "type" in data and data["type"] == "message" and "weather" in data['text']:
