@@ -16,6 +16,9 @@ Assignment due date: February 5, 2020, end of the day
 - run `pip install -r requirements.txt` to install the relevant packages for the slackbot (ensure slackclient is version 1.3.1 using `pip list`)
 - run `python3 bot.py`
 
+### Known issues: slackclient module not found
+- run `python3 -m pip install slackclient==1.3.1` to install slackclient correctly if you see this error
+
 ### Interacting with the Slackbot: Mocking
 - join the `#general` channel
 - type in any question with `?` at the end
