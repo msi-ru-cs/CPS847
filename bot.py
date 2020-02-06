@@ -15,6 +15,9 @@ client = SlackClient(slack_token)
 weather_dict = {}
 WEATHER_API_KEY = '<WEATHER-API-KEY>'
 
+image_url = "https://i.kym-cdn.com/entries/icons/original/000/022/940/mockingspongebobbb.jpg"
+attachments = [{"title": "spongebob", "image_url": image_url}]
+
 # Converts text to mocking text
 def mock(cmd):
     store = ""
@@ -38,7 +41,8 @@ def say_hello(data):
     
             client.api_call('chat.postMessage',
                 channel=channel_id,
-                text="<@{}>!".format(user) + mock(data['text'])
+                text="<@{}> ".format(user) + mock(data['text']),
+                attachments=attachments
             )
 
 # Returns current weather conditions for a few cities based on user input
